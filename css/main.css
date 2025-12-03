@@ -124,7 +124,7 @@ body {
 }
 
 .hero-overlap {
-   grid-row: 1/1; 
+   grid-row: 1/1;
 }
 
 .book-now {
@@ -462,4 +462,30 @@ body {
 
 #all-rooms ul li:first-of-type {
    border-top: none;
+}
+
+.learn-more {
+   text-align: center;
+   background-color: #9a2018;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.learn-more a {
+   text-decoration: none;
+   color: white;
+}
+
+.room-info {
+   margin-top: 20px;
+}
+
+.room-info p, .room-info h3 {
+   padding: 10px;
+}
+
+#important-info {
+   background-color: #f1f1f1;
+   padding:20px;
+   margin-top:40px;
 }
