@@ -393,7 +393,7 @@ body {
 /* .8 --- Footer --- */
 
 #main-footer {
-    background-image: url(../images/footer-bg.jpg);
+    background-image: url(../images/cr-footer-mob.jpg);
      background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
@@ -441,3 +441,25 @@ body {
  #hero-room ul {
    padding-left: 20px;
  }
+
+#welcome-p p:first-of-type{
+   border-top: solid 3px #CF6666;
+   margin-top:20px;
+   padding-top:15px;
+}
+
+#all-rooms {
+   background-color: #f1f1f1;
+   padding-top:20px;
+   padding-bottom: 20px;
+   line-height: 35px;
+   margin-bottom:20px;
+}
+
+#all-rooms ul li {
+   border-top: 1px solid #9a2018;
+}
+
+#all-rooms ul li:first-of-type {
+   border-top: none;
+}
