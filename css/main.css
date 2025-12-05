@@ -546,9 +546,25 @@ body {
 /* spa packages */
 
 #divine:hover{
-   filter:saturate(20%);
+   filter:brightness(30%);
    transition: all .5s ease-in-out;
 }
+
+/* .pckg-hover-content{
+   position:absolute;
+   bottom:50px;
+   padding:20px;
+   text-align: justify;
+   line-height:50px;
+} */
+
+/* #divine2 img{
+   filter:brightness(30%);
+}
+
+#heaven2 img{
+   filter:brightness(30%);
+} */
 
 .testimonial {
    line-height: 25px;
