@@ -592,3 +592,9 @@ body {
    margin-top:30px;
    line-height: 25px;
 }
+
+/* spa desktop */
+
+#desk-nav ul li{
+   display:flexbox;
+}
