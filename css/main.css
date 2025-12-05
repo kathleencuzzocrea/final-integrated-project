@@ -442,7 +442,7 @@ body {
    padding-left: 20px;
  }
 
-#welcome-p p:first-of-type{
+.welcome-p p:first-of-type{
    border-top: solid 3px #CF6666;
    margin-top:20px;
    padding-top:15px;
@@ -488,4 +488,91 @@ body {
    background-color: #f1f1f1;
    padding:20px;
    margin-top:40px;
+}
+
+#spa-info p, #spa-info h3 {
+   padding-left: 10px;
+   padding-right:10px;
+}
+
+#spa-info h3 {
+   padding-bottom: 15px;
+   padding-top:20px;
+}
+
+.prices {
+   font-style: italic;
+}
+
+.treatment-info {
+   background-color: #f1f1f1;
+   padding:10px;
+   margin-top:0px
+}
+
+#treatments {
+   margin-top: 20px;
+}
+
+.info {
+   margin-top:15px;
+}
+
+#special-packages {
+   background-color: #f1f1f1;
+   margin-top: 20px;
+   padding-bottom: 40px;
+   padding-top:15px;
+}
+
+#special-packages img {
+   text-align: center;
+}
+
+.package {
+   position: relative;
+   text-align: center;
+   color: white;
+}
+
+.pckg-title{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/* spa packages */
+
+#divine:hover{
+   filter:saturate(20%);
+   transition: all .5s ease-in-out;
+}
+
+.testimonial {
+   line-height: 25px;
+   padding-top:10px;
+   padding-bottom:10px;
+   margin-top:20px;
+}
+
+.testimonial img {
+   padding-top:10px;
+   padding-bottom: 10px;
+}
+
+#unforseen {
+   background-color: #f1f1f1;
+   padding-top: 15px;
+   line-height: 25px;
+}
+
+#unforseen h3 {
+   padding-bottom:15px;
+}
+
+#spa-accom {
+   margin-top:30px;
+   line-height: 25px;
 }
