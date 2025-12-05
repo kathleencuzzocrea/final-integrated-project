@@ -595,6 +595,89 @@ body {
 
 /* spa desktop */
 
-#desk-nav ul li{
-   display:flexbox;
+#desk-nav ul{
+   display:flex;
+   padding-top:30px;
+}
+
+#desk-nav ul li {
+   padding-right:30px;
+   list-style-type: none;
+   height: 60px;
+}
+
+#cr-logo-desk {
+   padding-top: 30px;
+}
+
+#desk-book-now {
+   background-color: #9a2018;
+   text-align: center;
+   padding-top: 45px;
+}
+
+#desk-book-now a {
+   color: white;
+}
+
+#desk-welcome {
+   margin-top: 40px;
+}
+
+#desk-welcome p {
+   border-top:#CF6666 3px solid;
+   padding-top: 15px;
+   margin-bottom: 40px;
+}
+
+#desk-services-h{
+   background: rgb(255, 255, 255);
+    padding: 20px 20px;
+    font-size: 20px;
+    grid-column: 7/12;
+    /* grid-row: 2/3; */
+    align-self: end;
+}
+
+#desk-hero-h {
+   background: rgb(255, 255, 255);
+    padding: 20px 20px;
+    font-size: 20px;
+    grid-column: 2/7;
+    /* grid-row: 2/3; */
+    align-self: end;
+}
+
+#desk-hero-h span {
+   font-size: 14px;
+   color:#9a2018;
+}
+
+#desk-spa-info {
+   margin-top: 40px;
+}
+
+#desk-spa-info h3 {
+   border-top:#CF6666 3px solid;
+   padding-top:30px;
+   padding-bottom: 30px;
+}
+
+.treatment-info-desk{
+   background-color: #f1f1f1;
+   padding:10px;
+   margin-top: 15px;
+}
+
+#desk-footer{
+   background-image: url(../images/cr-footer-desk.jpg);
+   color:white;
+}
+
+#footer-nav ul{
+   list-style-type: none;
+}
+
+#footer-nav ul li {
+   color:white;
 }
