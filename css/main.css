@@ -598,10 +598,12 @@ body {
 #desk-nav ul{
    display:flex;
    padding-top:30px;
+   justify-content: center;
+   align-items: center;
 }
 
 #desk-nav ul li {
-   padding-right:30px;
+   padding-right:45px;
    list-style-type: none;
    height: 60px;
 }
@@ -610,10 +612,21 @@ body {
    padding-top: 30px;
 }
 
+/* desk book now header */
 #desk-book-now {
    background-color: #9a2018;
    text-align: center;
-   padding-top: 45px;
+   transition: background-color 500ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 1s ease;
+    cursor: pointer;
+}
+
+#desk-book-now:hover{
+   box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
 }
 
 #desk-book-now a {
@@ -678,6 +691,29 @@ body {
    list-style-type: none;
 }
 
-#footer-nav ul li {
+#footer-nav a {
    color:white;
+}
+
+#footer-nav {
+   padding-top:30px;
+   line-height: 25px;
+}
+
+#book-now-desk {
+   background-color: #9a2018;
+   color:white;
+   transition: background-color 500ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 1s ease;
+    cursor: pointer;
+    height:100px;
+    margin-top:50px;
+}
+
+#book-now-desk:hover {
+   box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
 }
