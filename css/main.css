@@ -762,3 +762,162 @@ body {
    margin-top: 40px;
    margin-bottom:40px;
 }
+
+/* #in-resort p:first-of-type{
+   border-top:#CF6666 3px solid;
+   margin-top:20px;
+   padding-top:20px;
+} */
+
+#ir-p{
+   border-top:#CF6666 3px solid;
+   margin-top:20px;
+   padding-top:20px;
+}
+
+#in-resort img {
+   padding-bottom:20px;
+}
+
+#nearby-attractions{
+   margin-top:20px;
+   line-height: 20px;
+}
+
+#nearby-attractions h3:first-of-type{
+   border-top:#CF6666 3px solid;
+   padding-bottom:20px;
+   padding-top:20px;
+}
+
+#park-activities{
+   background-color: #f1f1f1;
+   padding:20px;
+   line-height: 40px;
+}
+
+#galeairy {
+   margin-top: 20px;
+   line-height: 20px;
+}
+
+#galeairy img{
+   padding-top:15px;
+   padding-bottom:15px;
+}
+
+#winter-exc img{
+   padding-bottom:20px;
+}
+
+#equipment{
+   padding:20px;
+   line-height: 30px;
+   background-color: #f1f1f1;
+}
+
+.season-info a {
+   background-color: #9a2018;
+   margin: 0 auto;
+   color:white;
+   padding:10px;
+   align-content: center;
+   justify-content: center;
+   transition: background-color 500ms ease-in-out;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 1s ease;
+    cursor: pointer;
+}
+
+.season-info a:hover{
+   box-shadow: inset -382px 0px 0px 0px rgb(196, 28, 28);
+}
+
+.season-info{
+   background-color: #f1f1f1;
+   margin-bottom:20px;
+}
+
+.season-info h3, p{
+   padding:10px;
+}
+
+#winter-p{
+   border-top:#CF6666 3px solid;
+   margin-top:20px;
+}
+
+#hiking{
+   position:relative;
+}
+
+#sport{
+   position: relative;
+}
+
+#bike{
+   position:relative;
+}
+
+#lake{
+   position: relative;
+}
+
+#boat{
+   position:relative;
+}
+
+.activity-content{
+   position: absolute;
+   top:0px;
+   color: rgb(255, 255, 255,0);
+   width:180px;
+   height:190px;
+   transition: color 500ms ease-in-out;
+}
+
+.activity-content p{
+   font-size:12px;
+}
+
+.activity-content h4{
+   padding:10px;
+}
+
+.activity-content:hover{
+   color:rgb(255, 255, 255);
+   transition: color 500ms ease-in-out;
+   background-color: rgba(0,0,0,0.5);
+   transition:background-color 500ms ease-in-out;
+}
+
+#kayak{
+   position:relative;
+}
+
+#patio{
+   position:relative;
+}
+
+#pool{
+   position:relative;
+}
+
+#birding{
+   position:relative;
+}
+
+#skiing{
+   position:relative;
+}
+
+#skating{
+   position:relative;
+}
+
+#ice-hiking{
+   position:relative;
+}

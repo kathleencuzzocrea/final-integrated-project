@@ -2,10 +2,281 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Couples Resort - Activities</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+
+    <h1 class="hidden">Welcome to The Couples Resort</h1>
+    <div id="mobile-outline">
+    <header id="main-header" class="grid-con">
+        <nav id="main-nav" class="col-span-full">
+            <h2 class="hidden">Main Navigation</h2>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+                <img src="images/burger.svg" alt="hamburger menu icon">
+            </label>
+                <ul id="burger-con">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Dining</a></li>
+                    <li><a href="spa.html">Spa</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="#">Reservations</a></li>
+                </ul>
+        </nav>
+        <div id="logo" class="col-span-full">
+            <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+        </div>
+    </header>
+    
+    <main>
+        <section id="main-hero" class="grid-full">
+                <img src="images/activities-hero1.jpg" alt="couples resort on lake" class="col-span-full hero-overlap">
+                <div class="grid-con col-span-full hero-overlap">
+                    <a class="book-now col-start-3 col-end-5" id="book-now-top" href="#">Book Now</a>
+                    <h2 class="hero-img-h2"><span>Couples Resort</span><br>Activities</h2> 
+                </div>   
+        </section> 
+
+        <div class="welcome-p grid-con">
+            <p class="col-span-full">Whether you’re immersing yourself in a scenic hike along the many trails in Algonquin Park, enjoying a relaxing afternoon swim in our heated pool, or going cross-country snowshoeing in the winter, Couples Resort has endless activities for you and your loved one to enjoy. Regardless of the weather or the season, we can guarantee you’ll never be bored during your stay. </p>
+        </div>
+
+        <section id="activities-hero2" class="grid-full">
+                <img src="images/activities-hero2.jpg" alt="couples resort on lake" class="col-span-full hero-overlap">
+                <div class="grid-con col-span-full hero-overlap">
+                    <h2 class="hero-img-h2">Explore the seasons at Couples Resort</h2> 
+                </div>   
+        </section>
+
+        <section class="grid-con" id="seasons">
+            <p class="col-span-full"></p>
+            
+            <div class="col-span-full season-info">
+                <img src="images/spring-mob.jpg">
+                <h3>Spring</h3>
+                <p>Spring is in the air and life in Nature is coming alive with excitement here at Algonquin Park, a perfect time to take a romantic vacation at Couples Resort and visit Algonquin Park.</p>
+                <a href="#">View Spring Package</a>
+            </div>
+
+            <div class="col-span-full season-info">
+                <img src="images/summer-mob.jpg">
+                <h3>Summer</h3>
+                <p>To do a lot or do nothing at all? A tough decision when almost everything is included in one package. Then again, who said you couldn't just relax in a deep padded chaise lounge on your own room deck and indulge in a favorite novel while resting in the soothing warmth of the day.</p>
+                <a href="#">View Summer Package</a>
+            </div>
+
+            <div class="col-span-full season-info">
+                <img src="images/fall-mob.jpg">
+                <h3>Fall</h3>
+                <p>Nothing says FALL more than fall colors in Algonquin Park, which is known to have some of the most brilliant changes of season throughout Ontario. Considered a Signature Canadian Experience bringing visitors from around the world, who are attracted by the outstanding fall colour viewing opportunities, but there are many other things to see and do.</p>
+                <a href="#">View Fall Package</a>
+            </div>
+
+            <div class="col-span-full season-info">
+                <img src="images/winter-mob.jpg">
+                <h3>Winter</h3>
+                <p>Winter is magically romantic with a crackling wood fire, a glass of champagne and your own bubbling Whirlpool Bath Tub and private rejuvenating Hot Tub, in-room real crackling wood fireplace and with romantic 1st Class gourmet dining. </p>
+                <a href="#">View Winter Package</a>
+            </div>
+        </section>
+
+        <section id="activities-hero3" class="grid-full">
+                <img src="images/activities-hero3.jpg" alt="couples resort on lake" class="col-span-full hero-overlap">
+                <div class="grid-con col-span-full hero-overlap">
+                    <h2 class="hero-img-h2">In-Resort Activities</h2> 
+                </div>   
+        </section>
+
+        <section class="grid-con" id="in-resort">
+            <h2 class="hidden">In-Resort Activities at Couples Resort</h2>
+            <p class="col-span-full" id="ir-p">Couples Resort proudly hosts a variety of activities and attractions to keep you entertained during your stay, within walking distance from your accommodations. Experience an action-packed vacation without ever needing to leave the resort grounds.</p>
+            <p class="col-span-full">Hover for more information.</p>
+            <div id="hiking">
+                <img src="images/hiking-mob.jpg" class="col-start-1 col-end-3" id="hiking-img">
+                <div id="hiking-content" class="activity-content">
+                    <h4>Couples Resort Hiking Trail</h4>
+                    <p>On-site scenic hiking trails, leading to a scenic view of Algonquin Park, consisting of three loops, Lookout Trail 1.0 km in length, Bear trail loop 2.7 and Rail Line loop 1.2.</p>
+                </div>
+            </div>
+
+            <div id="sport" class="col-start-3">
+                <img src="images/sport-mob.jpg" class="col-start-3 col-end-5">
+                <div id="sport-content" class="activity-content">
+                    <h4>Couples Resort Sport Centre</h4>
+                    <p>Get competitive at our in-house regulation-size pickleball, tennis, badminton, and basketball courts with all racquets, balls, and birdies provided.</p>
+                </div>
+            </div>
+
+            <div id="bike" class="col-start-1">
+                <img src="images/bike-mob.jpg" class="col-start-1 col-end-3">
+                <div id="bike-content" class="activity-content">
+                    <h4>Bike Rentals</h4>
+                    <p>The Couples Resort offers Mountain bike rentals as well as bike maps for four trails. Each of the trails are rated easy for all to enjoy. Ride along brand new Bike Path alongside Highway 60, over rolling hills and along lakes.</p>
+                </div>
+            </div>
+
+            <div id="lake" class="col-start-3">
+                <img src="images/lake-mob.jpg" class="col-start-3 col-end-5">
+                <div id="lake-content" class="activity-content">
+                    <h4>Lake</h4>
+                    <p>To invigorate the body,  a wonderful long swim off of our swimming dock in our clean lake is a must. The Galeairy Lake is clean and safe, with water temperatures hitting 25C (78F) by the end of July.</p>
+                </div>
+            </div>
+            <div id="boat" class="col-start-1">
+                <img src="images/boat-mob.jpg" class="col-start-1 col-end-3">
+                <div class="activity-content">
+                    <h4>Motor, Paddle, & Row Boats</h4>
+                    <p>Enjoy a free leisurely tour along the shores of Galeairy Lake and take in the beauty of Algonquin. Take the 4 hour paddle round trip and explore our waterfall, or spend few hours fishing.</p>
+                </div>
+            </div>
+
+            <div id="kayak" class="col-start-3">
+                <img src="images/kayak-mob.jpg" class="col-start-3 col-end-5">
+                <div class="activity-content">
+                    <h4>Kayaks & Canoes</h4>
+                    <p>An important form of transportation for the Algonquin natives has always been the use of canoes on the beautiful lakes and rivers. Canoes and kayaks permit you to travel deep into Algonquin Park on our Galeairy Lake.</p>
+                </div>
+            </div>
+
+            <div id="patio" class="col-start-1">
+                <img src="images/patio-mob.jpg" class="col-start-1 col-end-3">
+                <div class="activity-content">
+                    <h4>Patios</h4>
+                    <p>Relax at one of our three self-service patios by the pool, double fire-pit, or couples chaise lounge, OR enjoy a sit-down meal and be waited on by friendly servers at our service patio overlooking the Galeairy Lake.</p>
+                </div>
+            </div>
+            <div id="pool" class="col-start-3">
+                <img src="images/pool-mob.jpg" class="col-start-3 col-end-5">
+                <div class="activity-content">
+                    <h4>Heated Pool</h4>
+                    <p>1 outdoor salt-water pool 20 feet X 40 feet - Open May Long Weekend until Labour Day Weekend <br>Pool Temp 82'F & 28'C hours 10am to 7pm. </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities-hero4" class="grid-full">
+                <img src="images/activities-hero4.jpg" alt="couples resort on lake" class="col-span-full hero-overlap">
+                <div class="grid-con col-span-full hero-overlap">
+                    <h2 class="hero-img-h2">Nearby Attractions</h2> 
+                </div>   
+        </section>
+
+        <section class="grid-con" id="nearby-attractions">
+            <h3 class="col-span-full">Algonquin Park</h3>
+            <p class="col-span-full">Algonquin Park, the first provincial park in Ontario, protected from the noise and rush of civilization, this world-renowned park in Ontario is a sanctuary for the rugged beauty of the maple, pine, moose, and wolves. A Provincial Park since 1893, the 7500 square kilometers (3500 square miles) of Algonquin Park are home to a diverse and unblemished eco-system that can be found nowhere else on earth.</p>
+            <p class="col-span-full">Glaciers that receded ten thousand years ago created the distinctive rock outcroppings and spring-fed lakes of Algonquin. These mountains of ice have left the park with a rough, stark beauty. This, combined with its location, 3 hours northeast of Toronto and 2 1/2 hours west of Ottawa makes Algonquin an ideal attraction for those looking to escape the hustle of the city.</p>
+            <p class="col-span-full">This majestic park, minutes away and seen from our lakeshore, is awe-inspiring and completely peaceful with the incredible beauty of nature. Come experience the Algonquin grandeur, with all its fresh clean air, deep blue skies, rich green forests and hundreds of pristine lakes. </p>
+        </section>
+
+        <section class="grid-full" id="park-activities">
+                <h3 class="col-span-full">Park Activities</h3>
+                <ul class="col-span-full">
+                    <li>17 Hiking trails from casual to ambitious</li>
+                    <li>Canoeing from paddle to portage</li>
+                    <li>Wildlife spotting from loon to moose</li>
+                    <li>Visitor Centre information and activities</li>
+                    <li>Art Centre and Logging Museum</li>
+                    <li>Algonquin Art Gallery</li>
+                    <li>Fishing</li>
+                    <li>Algonquin Adventure Tours</li>
+                </ul>
+        </section>
+
+        <section class="grid-con" id="galeairy">
+            <h3 class="col-span-full">Galeairy Lake</h3>
+            <img src="images/galeairy-mob.jpg" class="col-span-full">
+            <p class="col-span-full">Couples resort is located on the shores of Galeairy Lake, with direct access to Algonquin Park. Originally named Long lake which was renamed to Galeairy Lake because the lake borders Nightengale and Airy townships.</p>
+            <p class="col-span-full">Galeairy Lake is 11 kilometres (7 miles) long, land locked and extends mostly inside the boundaries of Algonquin Park . Explore the many secluded coves by canoe or kayak and search for loons, beaver, otter and moose. Pull up on shore, have a picnic and go for a swim.</p>
+            <p class="col-span-full">Swimming in this lake is great. It is very clean and safe, with water temperatures hitting 25C (78F) by the end of July. Typically the lake temperature is above 18C (70F) from the third week of June to the first week of September.</p>
+        </section>
+
+        <section id="activities-hero5" class="grid-full">
+                <img src="images/activities-hero5.jpg" alt="couples resort on lake" class="col-span-full hero-overlap">
+                <div class="grid-con col-span-full hero-overlap">
+                    <h2 class="hero-img-h2">Winter Exclusives</h2> 
+                </div>   
+        </section>
+
+        <section class="grid-con" id="winter-exc">
+            <p class="col-span-full" id="winter-p">Hover for more information</p>
+            <div id="birding" class="col-start-1">
+                <img src="images/birding-mob.jpg" class="col-start-1 col-end-3">
+                <div class="activity-content">
+                    <h4>Winter Birding</h4>
+                    <p>Famous birds that will eat seeds from your hand or your hat are the Canada Jay (aka the Gray Jay or the Whisky Jack) and Boreal Chickadee.</p>
+                </div>
+            </div>
+
+            <div id="skiing" class="col-start-3">
+                <img src="images/skiing-mob.jpg" class="col-start-3 col-end-5">
+                <div class="activity-content">
+                    <h4>Cross Country Skiing & Snowshoeing</h4>
+                    <p>48 kilometres of groomed and 23 kilometres of non-groomed cross-country ski trails available in three low-usage trail networks, typically December to early April.</p>
+                </div>
+            </div>
+
+            <div id="skating" class="col-start-1">
+                <img src="images/skating-mob.jpg" class="col-start-1 col-end-3">
+                <div class="activity-content">
+                    <h4>Ice Skating</h4>
+                    <p>Enjoy the authentic Canadian experience of skating outdoors just a short distance away from the resort In Algonquin Park at Mew Lake Campground, or at the Township Rink, a short 15 minute walk into town.</p>
+                </div>
+            </div>
+
+            <div id="ice-hiking" class="col-start-3">
+                <img src="images/ice-hiking-mob.jpg" class="col-start-3 col-end-5">
+                <div class="activity-content">
+                    <h4>Ice Hiking</h4>
+                    <p>Fun and Easy and Safe.  Invented Here in 2018. IceHiking is a Guaranteed Winter Sport, We guarantee it daily - 7 days a week, All Winter long, November to April. All Algonquin Park trails now easy to access in Winter!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-full" id="equipment">
+            <h3>Equipment Rentals</h3>
+            <ul>
+                <li>Free Algonquin Park Pass included with your stay.</li>
+                <li>Pro IceHiking Crampons and Walking Poles</li>
+                <li>Bird seeds</li>
+                <li>Wax-less cross-country skis, boots and poles. </li>
+                <li>Ski waxing station.</li>
+                <li>Pro snowshoes</li>
+                <li>Ice Skates up to size 14</li>
+                <li>Mew Lake Park Pass from our Office</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer id="main-footer" class="grid-con">
+            <h2 class="hidden">Couples Resort Footer</h2>
+                       
+                    <div id="main-footer-contact-info" class="col-span-full">                      
+                        <h3>Couples Resort</h3>
+                        <p>1198 Osprey Rd, (End of)<br>
+                            Minden, Soyers Lake, ON, <br>
+                            K0M 2K0
+                        </p>
+                        <h3 class="hidden">Phone and Fax Information</h3>
+                        <p>
+                            Toll Free:+1 877 201-1156<br>
+                            FAX:+1 613 638 2217
+                        </p>
+                    </div>
+            
+                <p id="price-policy" class="col-span-full">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
+            
+    </footer>
+    </div>
     
 </body>
 </html>
