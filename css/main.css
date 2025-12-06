@@ -677,8 +677,8 @@ body {
 }
 
 .treatment-info-desk{
-   background-color: #f1f1f1;
-   padding:10px;
+   background-color: white;
+   /* padding:10px; */
    margin-top: 15px;
 }
 
@@ -716,4 +716,49 @@ body {
 
 #book-now-desk:hover {
    box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
+}
+
+#desk-special-packages {
+   background-color: #f1f1f1;
+   margin-top:80px;
+   padding:20px 20px;
+}
+
+#desk-special-packages img {
+   padding-bottom: 23px;
+}
+
+#eminence-desk p{
+   line-height: 40px;
+}
+
+#eminence-desk {
+   margin-bottom:20px;
+   margin-top:40px;
+}
+
+#qa-desk p{
+   line-height: 40px;
+}
+
+#qa-desk{
+   margin-bottom:40px;
+}
+
+#info-divider-desk{
+   border-top:#CF6666 3px solid;
+}
+
+#unforseen-desk{
+   background-color: #f1f1f1;
+   margin-top:40px;
+   margin-bottom:40px;
+   padding:40px 20px;
+   line-height:40px;
+}
+
+#enjoy-desk {
+   line-height: 40px;
+   margin-top: 40px;
+   margin-bottom:40px;
 }
