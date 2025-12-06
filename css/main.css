@@ -543,29 +543,6 @@ body {
   font-weight: normal;
 }
 
-/* spa packages */
-
-#divine:hover{
-   filter:brightness(30%);
-   transition: all .5s ease-in-out;
-}
-
-/* .pckg-hover-content{
-   position:absolute;
-   bottom:50px;
-   padding:20px;
-   text-align: justify;
-   line-height:50px;
-} */
-
-/* #divine2 img{
-   filter:brightness(30%);
-}
-
-#heaven2 img{
-   filter:brightness(30%);
-} */
-
 .testimonial {
    line-height: 25px;
    padding-top:10px;
@@ -919,5 +896,91 @@ body {
 }
 
 #ice-hiking{
+   position:relative;
+}
+
+.desk-hover{
+   position: absolute;
+   top:0px;
+   color: rgb(255, 255, 255,0);
+   width:488px;
+   height:488px;
+   transition: color 500ms ease-in-out;
+}
+
+.desk-hover:hover{
+   color:rgb(255, 255, 255);
+   transition: color 500ms ease-in-out;
+   background-color: rgba(0,0,0,0.5);
+   transition:background-color 500ms ease-in-out;
+}
+
+.desk-hover h3{
+   font-size:30px;
+   padding:20px;
+}
+
+.desk-hover p{
+   padding:20px;
+   font-size:16px;
+   line-height: 40px;
+}
+
+#divine-desk{
+   position:relative;
+}
+
+#heaven-desk{
+   position:relative;
+}
+
+#rejuv-desk{
+   position:relative;
+}
+
+#solstice-desk{
+   position:relative;
+}
+
+.spa-mob-hover{
+   position: absolute;
+   top:0px;
+   color: rgb(255, 255, 255,0);
+   width:382px;
+   height:372px;
+   transition: color 500ms ease-in-out;
+}
+
+.spa-mob-hover:hover{
+   color:rgb(255, 255, 255);
+   transition: color 500ms ease-in-out;
+   background-color: rgba(0,0,0,0.5);
+   transition:background-color 500ms ease-in-out;
+}
+
+.spa-mob-hover h3{
+   padding:40px;
+   font-size:20px;
+}
+
+.spa-mob-hover p{
+   font-size:16px;
+   padding:20px;
+   line-height:30px;
+}
+
+#divine{
+   position:relative;
+}
+
+#heaven{
+   position: relative;
+}
+
+#rejuv{
+   position: relative;
+}
+
+#solstice{
    position:relative;
 }
