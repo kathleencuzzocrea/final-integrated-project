@@ -38,7 +38,7 @@
     
     <main>
         <section id="main-hero" class="grid-full">
-                <img src="images/spa-hero1.jpg" alt="couples resort on lake" class="col-span-full hero-overlap">
+                <img src="images/spa-hero1.jpg" alt="couple relaxing on patio" class="col-span-full hero-overlap">
                 <div class="grid-con col-span-full hero-overlap">
                     <a class="book-now col-start-3 col-end-5" id="book-now-top" href="#">Book Now</a>
                     <h2 class="hero-img-h2"><span>Couples Resort</span><br>Spa</h2> 
@@ -50,7 +50,7 @@
         </div>
 
         <section class="grid-full">
-                <img src="images/spa-hero2.jpg" alt="couples resort on lake" class="col-span-full hero-overlap">
+                <img src="images/spa-hero2.jpg" alt="woman getting a relaxing massage" class="col-span-full hero-overlap">
                 <div class="grid-con col-span-full hero-overlap">
                     <h2 class="hero-img-h2"><span>Couples Resort</span><br>Explore Spa Services</h2> 
                 </div>   
@@ -71,7 +71,7 @@
             <h3 class="col-span-full">Treatments</h3>
 
             <section id="reg-massage-therapy" class="info col-span-full">
-                <img src="images/rmt-mob.jpg" alt="woman getting a massage">
+                <img src="images/rmt-mob.jpg" alt="woman getting a back massage">
                 <div class="treatment-info">
                     <h3>Registered Massage Therapy</h3>
                     <p class="prices">In Spa Only: 30 min $96 * / 60 min $186 * / 90 min $276 </p>
@@ -140,7 +140,7 @@
                 <p class="col-span-full">Hover for more information.</p>
 
                 <div class="package col-span-full" id="divine">
-                    <img src="images/divine-mob.jpg" alt="bundle of flowers with lit candle behind it">
+                    <img src="images/divine-mob.jpg" alt="bundle of flowers with a candle behind it">
                     <div class="spa-mob-hover">
                         <h3>Divine Spa Package</h3>
                         <p>2 Hours - $208.00</p>
@@ -208,6 +208,47 @@
                 <p>As part of the Algonquin Spa you have access to our fitness / sauna room. It is a beautiful cedar sunroom with a fantastic view over the 3 season Swimming Pool and Galeairy Lake. There are free-weights, benches, a bike machine, a concept 2 rowing machine and a tread mill. The sunroom also has all the amenities with washrooms and showers, TV and VCR for work out videos, mats, and a drink cooler. After your workout or at the end of your day, revive your soul in the sauna. The heat will soothe your muscles and purify your skin . . . Perfect! From here you have easy access to the outdoor heated salt-water pool. Relax and melt away, or do a few laps, it is all yours.</p>
             </div>
         </section>
+
+        <details id="spa-deets">
+            <summary>Contact Form</summary>
+            <section id="spa-forms">
+                <div id="spa-contact" class="grid-con">
+                        <p class="col-span-full">For spa appointment enquiries and further information, please complete our contact form below. Or if you prefer to talk, call us at our toll free number listed below.</p>
+                    </div>
+
+                    <section class="grid-con">
+                        <h2 class="hidden">Address, Phone Number and Form</h2>
+                        <section id="contact-form-adress-left" class="col-span-full">
+                                <h3>Couples Resort (Inc.)</h3>
+                                <p>1198 Osprey Rd, (End of)<br>
+                                Minden, Soyers Lake, ON, K0M 2K0<br>
+                            </p>
+                            <h3 class="hidden">Phone, Fax and Email</h3>
+                            <p>
+                                Toll Free:+1 877 201-1156<br>
+                                FAX:+1 613 638 2217<br>
+                                E-mail: info[at]coupleresort.com 
+                            </p>
+                        </section>
+
+                        <section id="contact-form-fields-right" class="col-span-full">
+                            <h3 class="hidden">Contact Us Form</h3>
+                            <form action="email.php" method="POST" enctype="text/plain">
+                                <input name="fullName" type="text" placeholder="First & Last Name">
+                                <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                                <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+
+                                <label for="checkbox">
+                                    <input type="checkbox" id="spa-check">
+                                    Sign up for promotional E-mails?<span></span>
+                                </label>
+
+                                <input name="submit" type="submit" value="Send" class="learn-more">
+                            </form>
+                        </section>
+                    </section>
+                </section>
+            </details>
 
     </main>
 

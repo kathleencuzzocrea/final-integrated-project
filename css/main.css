@@ -469,6 +469,38 @@ body {
    background-color: #9a2018;
    padding-top: 10px;
    padding-bottom: 10px;
+   transition: background-color 500ms ease-in-out;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 1s ease;
+    cursor: pointer;
+    /* animation-name: learnmore;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+}
+
+@keyframes learnmore{
+   0%{
+      border-radius: none;
+      box-shadow: 5px 5px 8px #626262;
+   }
+   50%{
+      border-radius: 15px 0px 15px 0px;
+      box-shadow: -5px 5px 8px #626262;
+   }
+   100%{
+      border-radius: none;
+      box-shadow: 5px 5px 8px #626262;
+   }
+}
+
+.learn-more:hover{
+   box-shadow: inset -200px 0px 0px 0px rgb(196, 28, 28);
+   animation-name: learnmore;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .learn-more a {
@@ -983,4 +1015,52 @@ body {
 
 #solstice{
    position:relative;
+}
+
+details summary{
+   font-size:20px;
+   padding-bottom:15px;
+   padding-top:15px;
+}
+
+details summary::marker{
+   content:none;
+}
+
+details summary::before{
+   content: "♥";
+   /* padding-right: 10px; */
+   color:#333;
+   display:inline-block;
+   transform: rotate(-90deg);
+}
+
+details[open] summary::before{
+   color:#9a2018;
+   transform:rotate(0deg);
+}
+
+#spa-contact{
+   margin-bottom: 20px;
+   line-height: 25px;
+}
+
+#spa-forms{
+   background-color: #f1f1f1;
+}
+
+#spa-check{
+   display:inline-block;
+}
+
+input[type="checkbox"]:checked + span::after {
+    content: "✓";
+    color:#9a2018;
+    font-size:20px;
+}
+
+#spa-deets summary{
+   padding:20px;
+   font-size:18px;
+   background-color:#f1f1f1;
 }
